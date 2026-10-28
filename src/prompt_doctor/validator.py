@@ -13,7 +13,7 @@ def validate_prompt(prompt: str) -> str:
     """
 
     if not isinstance(prompt, str):
-        raise ValueError("Prompt must be a string.")
+        raise TypeError("Prompt must be a string.")
 
     prompt = prompt.strip()
 
