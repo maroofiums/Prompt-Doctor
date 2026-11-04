@@ -27,3 +27,5 @@ def generate_response(prompt: str) -> str:
     )
 
     return result[0]["generated_text"]
+
+
